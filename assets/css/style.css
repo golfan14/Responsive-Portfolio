@@ -147,3 +147,42 @@ input[type=text] {
     box-sizing: border-box;
     color: #777777;
 }
+
+@media screen and (max-width: 980px) {
+    .clearfix::after {
+        float: left;
+    }  
+    .text {
+        float: left;
+    }
+    footer {
+        float: left;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .clearfix::after {
+        float: left;
+        width: 200px;
+    }  
+    .text {
+        float: left;
+    }
+    footer {
+        float: left;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    .clearfix::after {
+        float: left;
+        position: static;
+        width: 200px;
+    }  
+    .text {
+        float: left;
+    }
+    footer {
+        float: left;
+    }
+}
